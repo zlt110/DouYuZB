@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70E40261FCC67890064E60D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E40241FCC67890064E60D /* Home.storyboard */; };
+		F70E40281FCC67F70064E60D /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E40271FCC67F70064E60D /* Live.storyboard */; };
+		F70E402B1FCC681A0064E60D /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E40291FCC681A0064E60D /* Follow.storyboard */; };
+		F70E402D1FCC683D0064E60D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E402C1FCC683D0064E60D /* Profile.storyboard */; };
+		F70E402F1FCC6ADF0064E60D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E402E1FCC6ADF0064E60D /* MainViewController.swift */; };
 		F7AD46511FC1EA1D00163648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD46501FC1EA1D00163648 /* AppDelegate.swift */; };
 		F7AD46561FC1EA1D00163648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD46541FC1EA1D00163648 /* Main.storyboard */; };
 		F7AD46581FC1EA1D00163648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AD46571FC1EA1D00163648 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70E40251FCC67890064E60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		F70E40271FCC67F70064E60D /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
+		F70E402A1FCC681A0064E60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		F70E402C1FCC683D0064E60D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../Main/Profile.storyboard; sourceTree = "<group>"; };
+		F70E402E1FCC6ADF0064E60D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F7AD464D1FC1EA1D00163648 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AD46501FC1EA1D00163648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AD46551FC1EA1D00163648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +64,6 @@
 			children = (
 				F7EE92BC1FC5DD9B0061867C /* Classes */,
 				F7AD46501FC1EA1D00163648 /* AppDelegate.swift */,
-				F7AD46541FC1EA1D00163648 /* Main.storyboard */,
 				F7AD46571FC1EA1D00163648 /* Assets.xcassets */,
 				F7AD46591FC1EA1D00163648 /* LaunchScreen.storyboard */,
 				F7AD465C1FC1EA1D00163648 /* Info.plist */,
@@ -78,6 +87,7 @@
 		F7EE92BD1FC5DD9B0061867C /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				F70E40291FCC681A0064E60D /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +95,7 @@
 		F7EE92BE1FC5DD9B0061867C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F70E40241FCC67890064E60D /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +103,7 @@
 		F7EE92BF1FC5DD9B0061867C /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				F70E40271FCC67F70064E60D /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +111,8 @@
 		F7EE92C01FC5DD9B0061867C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F7AD46541FC1EA1D00163648 /* Main.storyboard */,
+				F70E402E1FCC6ADF0064E60D /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 		F7EE92C11FC5DD9B0061867C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				F70E402C1FCC683D0064E60D /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -179,6 +194,10 @@
 				F7AD465B1FC1EA1D00163648 /* LaunchScreen.storyboard in Resources */,
 				F7AD46581FC1EA1D00163648 /* Assets.xcassets in Resources */,
 				F7AD46561FC1EA1D00163648 /* Main.storyboard in Resources */,
+				F70E40281FCC67F70064E60D /* Live.storyboard in Resources */,
+				F70E40261FCC67890064E60D /* Home.storyboard in Resources */,
+				F70E402D1FCC683D0064E60D /* Profile.storyboard in Resources */,
+				F70E402B1FCC681A0064E60D /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,18 +209,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AD46511FC1EA1D00163648 /* AppDelegate.swift in Sources */,
+				F70E402F1FCC6ADF0064E60D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F70E40241FCC67890064E60D /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70E40251FCC67890064E60D /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		F70E40291FCC681A0064E60D /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70E402A1FCC681A0064E60D /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
 		F7AD46541FC1EA1D00163648 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F7AD46551FC1EA1D00163648 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F7AD46591FC1EA1D00163648 /* LaunchScreen.storyboard */ = {
@@ -312,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myjf.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,7 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myjf.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
